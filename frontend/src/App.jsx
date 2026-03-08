@@ -1,8 +1,11 @@
 import React from 'react'
+import Header from './components/Header.jsx'
 
 const App = () => {
   return (
-    <div className='text-red-500'>App</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 
